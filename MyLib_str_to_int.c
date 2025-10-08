@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "MyLib.h"
 int MyLib_atoi(const char *str)
 {
     int i;
@@ -25,10 +25,4 @@ int MyLib_atoi(const char *str)
         i++;
     }
     return (container * sign);
-}
-
-int main()
-{
-    int x = MyLib_atoi("-90");
-    printf("hi %d", x + 4);
 }
