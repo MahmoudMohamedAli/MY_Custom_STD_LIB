@@ -4,7 +4,7 @@ int MyLib_atoi(const char *str)
     int i;
     int sign;
     int container;
-
+    MyLib_strLength("him");
     i = 0;
     sign = 1;
     container = 0;
